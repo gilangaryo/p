@@ -1,0 +1,21 @@
+# .gitignore
+
+# Node modules (wajib)
+node_modules/
+
+# File database lokal (kalau pakai SQLite)
+*.db
+
+# logs
+logs
+*.log
+
+# sistem
+.DS_Store
+.env
+.env.*
+.vscode
+.idea
+
+# OS generated files
+Thumbs.db
